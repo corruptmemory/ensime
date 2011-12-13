@@ -340,7 +340,7 @@ object Sbt extends ExternalConfigurator {
     val props = JavaProperties.load(new File(baseDir, "project/build.properties"))
     val sbt11 = (new Sbt10Style(){
 	override def versionName:String = "0.11"
-	override def jarName:String = "sbt-launch-0.11.0.jar"
+	override def jarName:String = "sbt-launch-0.11.2.jar"
       })
     val sbt9 = (new Sbt10Style(){
 	override def versionName:String = "0.9"
